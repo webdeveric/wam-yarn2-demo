@@ -1,0 +1,15 @@
+{
+  "name": "yarn2-demo",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Yarn 2 PnP demo",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "NODE_ENV=production webpack"
+  },
+  "devDependencies": {
+    "webpack": "^5.21.2",
+    "webpack-assets-manifest": "^5.0.1",
+    "webpack-cli": "^4.5.0"
+  }
+}
